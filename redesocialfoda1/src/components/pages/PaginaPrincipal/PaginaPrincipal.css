@@ -1,0 +1,34 @@
+.cabecalho {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  background-color: aquamarine;
+}
+.cabecalho .PaginaAtual {
+  margin-left: auto;
+}
+
+
+.galeriaCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(4, 231, 4);
+  width: 150px;
+  height: 100px;
+  margin: 20px;
+}
+.card .titulocard{
+  color: azure;
+  font-size: 30px;
+}
+
+.fundoVermelho{
+  background-color: red;
+}
