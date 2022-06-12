@@ -1,0 +1,17 @@
+.navegador {
+  background-color: blue;
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+.navegador .navButton {
+  margin-left: auto;
+}
+.navegador .navTitulo {
+  color: antiquewhite;
+  padding: 10px;
+}
+.navegador .usuario {
+  color: antiquewhite;
+  padding: 10px;
+}
