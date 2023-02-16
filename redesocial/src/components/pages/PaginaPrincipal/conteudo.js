@@ -38,14 +38,6 @@ export function Conteudo() {
       disponivel: false,
     },
   ];
-  //   let ls = [];
-  //   for (let i = 0; i < diciplinas.length; i++) {
-  //     ls.push(
-  //       <li>
-  //         {diciplinas[i].nome} - {diciplinas[i].codigo}
-  //       </li>
-  //     );
-  //   }
 
   let Cards = diciplinas.map((diciplina) => (
     <Card

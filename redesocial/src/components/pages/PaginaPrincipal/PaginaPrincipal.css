@@ -1,25 +1,28 @@
+
+
 .cabecalho {
+  color: white;
   display: flex;
   align-items: center;
   padding: 7px;
-  background-color: aquamarine;
+  background-color: #1d0944;
 }
 .cabecalho .PaginaAtual {
   margin-left: auto;
 }
 
-
 .galeriaCard{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: rgb(75, 13, 132);
 }
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(4, 231, 4);
+  background-color: rgb(155, 255, 155);
   width: 150px;
   height: 100px;
   margin: 20px;
@@ -30,5 +33,5 @@
 }
 
 .fundoVermelho{
-  background-color: red;
+  background-color: rgb(255, 132, 132);
 }

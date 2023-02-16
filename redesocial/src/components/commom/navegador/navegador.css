@@ -1,12 +1,12 @@
 .navegador{
-    background-color: aqua;
+    background-color:fuchsia;
     display: flex;
 }
 .navegador .linksNav:hover{
-    background-color: rgb(6, 202, 202);
+    background-color: #1d0944;
 }
 .navegador .linksNav{
-    color: black;
+    color: white;
     padding: 8px;
     display: block;
     text-decoration: none;
