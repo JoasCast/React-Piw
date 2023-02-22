@@ -1,0 +1,29 @@
+.paginaPrincipal {
+  width: 700px;
+  height: 20px;
+  background-color: #1f0b13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Feed {
+  background-color: #1f0b13eb
+  ;
+}
+.Feed .card {
+  background-color: #1f0b13  ;
+}
+.Feed .card .nomeCard{
+  color: dodgerblue;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 5px;
+}
+.Feed .card .textoCard{
+  color: white;
+  margin-left: 15px;
+}
+.Feed .card .botaoCard{
+  border-radius: 5px;
+  cursor: pointer;
+}

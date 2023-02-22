@@ -1,10 +1,17 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { PaginaPrinipal } from "./components/pages/paginaPrincipal";
+import { PaginaPostar } from "./components/pages/PaginaPostar/paginaPostar";
+import { PaginaPrincipal } from "./components/pages/PaginaPrincipal/paginaPrincipal";
 
 function App() {
   return (
     <div className="paginaTotal">
-      <PaginaPrinipal></PaginaPrinipal>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<PaginaPrincipal></PaginaPrincipal>} />
+          <Route path="/postar" element={<PaginaPostar></PaginaPostar>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

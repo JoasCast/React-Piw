@@ -1,0 +1,24 @@
+.corpo {
+    display: flex;
+    justify-content: center;
+    background-color: #1f0b13;
+    padding: 20px;
+}
+
+.corpo .formulario {
+    color: white;
+    background-color: #1f0b13eb;
+}
+
+.corpo .formulario .likeInput{
+    display: none;
+}
+
+.corpo .formulario .botao{
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    margin : 10px;
+    border: solid 2px white;
+}

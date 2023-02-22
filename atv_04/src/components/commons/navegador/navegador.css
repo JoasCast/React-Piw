@@ -1,17 +1,24 @@
 .navegador {
-  background-color: blue;
+  background-color: #1f0b13
+  ;
   width: 700px;
   display: flex;
   align-items: center;
 }
 .navegador .navButton {
   margin-left: auto;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  color: white;
+  padding: 4px;
+  border: solid 2px white;
+  text-decoration: none;
 }
 .navegador .navTitulo {
-  color: antiquewhite;
+  color: dodgerblue;
   padding: 10px;
 }
 .navegador .usuario {
-  color: antiquewhite;
+  color: dodgerblue;
   padding: 10px;
 }
